@@ -8,5 +8,10 @@
 </head>
 <body>
   <a href="./perfil/perfil-lista.php">Perfil CRUD</a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a href="./conexao.php">Testar Conexão</a>
 </body>
 </html>
