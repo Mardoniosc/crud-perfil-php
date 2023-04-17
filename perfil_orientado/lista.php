@@ -25,7 +25,7 @@ $perfildao = new PerfilDAO();
 <body>
   <div class="flex flex-row justify-around">
     <h1 class="m-4 text-3xl font-bold">
-      Lista de perfils - <a href="perfil-lista.php" class="text-blue-400">HOME</a>
+      Lista de perfils - <a href="lista.php" class="text-blue-400">HOME</a>
     </h1>
     <h1 class="m-4 text-3xl font-bold">
       <a href="./form.php" class="text-blue-400">+ Cadastrar</a>
