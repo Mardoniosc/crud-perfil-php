@@ -10,6 +10,7 @@
   <a href="./perfil/perfil-lista.php">Perfil CRUD</a>
   <br>
   <br>
+  <a href="./perfil_orientado/lista.php">Perfil CRUD ORIENTADO</a>
   <br>
   <br>
   <a href="./conexao.php">Testar Conexão</a>
