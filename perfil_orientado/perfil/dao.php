@@ -21,7 +21,7 @@ class PerfilDAO
     public function read()
     {
         try {
-            $sql = "SELECT * FROM perfil order by nome asc";
+            $sql = "SELECT * FROM perfil order by id asc";
             $result = Conexao::getConexao()->query($sql);
             $lista = $result->fetchAll(PDO::FETCH_ASSOC);
             $f_lista = array();
