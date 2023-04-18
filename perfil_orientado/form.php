@@ -46,10 +46,10 @@ $perfil = $perfildao->readById($perfil);
             <input type="hidden" name="id" value="<?= $perfil->getId() ?>" />
           </div>
         </div>
-        <input type="text" name="<?php echo $perfil->getId() ? 'editar' : 'cadastrar' ?>" hidden value="true">
         <button 
           class="w-32 flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" 
           type="submit"  
+          name="<?php echo $perfil->getId() ? 'editar' : 'cadastrar' ?>"
         >
           <?php echo $perfil->getId() ? 'editar' : 'cadastrar' ?>
         </button>
@@ -58,8 +58,6 @@ $perfil = $perfildao->readById($perfil);
     </div>
   </div>
 </div>
-
-
 
 </body>
 </html>

@@ -11,6 +11,7 @@ $perfildao = new PerfilDAO();
 
 $d = filter_input_array(INPUT_POST);
 
+
 //se a operação for gravar entra nessa condição
 if (isset($_POST['cadastrar'])) {
   $perfil->setNome($d['nome']);

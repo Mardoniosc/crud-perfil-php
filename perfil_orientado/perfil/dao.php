@@ -8,12 +8,13 @@ class PerfilDAO
     public function create(Perfil $perfil)
     {
         try {
-            $sql = "INSERT INTO perfil (nome) VALUES('". $perfil->getNome() ."')";
-            $p_sql = Conexao::getConexao()->query($sql);
+            $sql = "INSERT INTO perfil (nome) VALUES(:nome)";
+            $p_sql = Conexao::getConexao()->prepare($sql);
+            $p_sql->bindValue(":nome", $perfil->getNome());
             return $p_sql->execute();
         } catch (Exception $e) {
-            print_r($e);
-            // header("Location: ../lista.php?action=cadastrar&msg=error");
+            // print_r($e);
+            header("Location: ../lista.php?action=cadastrar&msg=error");
         }
     }
 
