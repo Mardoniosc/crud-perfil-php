@@ -1,5 +1,5 @@
 <?php
-include_once('./perfil/conexao.php');
+include_once('../conexao_orientado.php');
 include_once('./perfil/dao.php');
 include_once('./perfil/model.php');
 $id = $_GET['id'];

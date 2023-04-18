@@ -1,5 +1,5 @@
 <?php
-include_once "./conexao.php";
+include_once('../../conexao_orientado.php');
 include_once "./model.php";
 include_once "./dao.php";
 
