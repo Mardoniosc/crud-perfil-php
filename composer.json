@@ -1,10 +1,4 @@
 {
-  "name": "CrudPHP",
-  "description": "Pacotes de test do projeto",
-  "license": "proprietary",
-  "require-dev": {
-    "phpunit/phpunit": "^10.0"
-  },
   "require": {
     "phpunit/phpunit": "^10.0"
   }
